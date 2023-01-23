@@ -10,4 +10,6 @@ export function getLast() {
 export function tastNext(){
     let combination = 'But sometimes let';
     combination += getLast();
+
+    return combination;
 }
