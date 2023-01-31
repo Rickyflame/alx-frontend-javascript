@@ -1,4 +1,3 @@
-
 export const weakMap = new WeakMap();
 let times = 1;
 
@@ -9,3 +8,4 @@ export function queryAPI(endPoint) {
   if (countQuery >= 5) {
     throw new Error('Endpoint load is high');
   }
+}
