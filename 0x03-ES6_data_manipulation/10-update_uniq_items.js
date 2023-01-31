@@ -9,3 +9,4 @@ export default function updateUniqueItems(map) {
     throw new Error('Cannot process');
   }
   return map;
+}
